@@ -4,7 +4,7 @@ set -euo pipefail
 REPO_DIR="/Users/veritas/Git/BAR"
 REMOTE="github-latlcs-deploy"   
 BRANCH="gh-pages"
-LOG_FILE="/Users/veritas/github-latlcs-deploy.log"
+LOG_FILE="github-latlcs-deploy.log"
 
 exec >> "$LOG_FILE" 2>&1
 echo "=== Run started: $(date) ==="
